@@ -2,9 +2,9 @@
 
 # Default values
 out="Image.gz-dtb"
-pagesize="2048"
-defconfig="vendor/msm8953-perf_defconfig"
-kernelsource="kernel/xiaomi/oxygen"
+pagesize="4096"
+defconfig="vendor/lahaina-qgki_defconfig vendor/debugfs.config"
+kernelsource="kernel/nothing/sm7325"
 
 # Parse arguments
 while [[ $# -gt 0 ]]; do
