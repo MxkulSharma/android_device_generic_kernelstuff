@@ -13,7 +13,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := kernelstuff
 PRODUCT_NAME := twrp_kernelstuff
-PRODUCT_BRAND := sounddrill
+PRODUCT_BRAND := MxkulSharma
 PRODUCT_MODEL := kernelstuff
 PRODUCT_MANUFACTURER := generic
 TARGET_VENDOR := generic
